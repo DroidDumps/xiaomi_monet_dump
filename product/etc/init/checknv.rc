@@ -1,0 +1,4 @@
+service checknv /product/bin/checknv
+    user system
+    class late_start
+    oneshot
